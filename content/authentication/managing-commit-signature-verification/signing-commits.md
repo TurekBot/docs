@@ -50,6 +50,11 @@ If you have multiple keys or are attempting to sign commits or tags with a key t
 5. To view more detailed information about the verified signature, click Verified.
 ![Signed commit](/assets/images/help/commits/gpg-signed-commit-verified-without-details.png)
 
+{% tip %}
+** Authentication vs Signing SSH Keys **
+You need to upload your SSH public key (potentially again) as a "Signing Key" for {% data variables.product.product_name %} to recognize your SSH-signed commits.
+{% endtip %}
+
 ## Further reading
 
 * "[Telling Git about your signing key](/articles/telling-git-about-your-signing-key)"
